@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  transition: background 1s ease-in-out, color 0.5s;
+  color: #fff;
+}
+
+h1 {
+  color: rgb(0, 119, 255);
+}
+
+.search-box {
+  margin: 20px auto;
+}
+
+input {
+  padding: 10px;
+  width: 220px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.card {
+  margin-top: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  width: 320px;
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+/* ☀ Sunny */
+.sunny {
+  background: linear-gradient(to bottom, #f6d365, #fda085);
+}
+
+/* ☁ Cloudy */
+.cloudy {
+  background: linear-gradient(to bottom, #757f9a, #d7dde8);
+}
+
+/* 🌧 Rainy */
+.rainy {
+  background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+}
+
+/* ❄ Snowy */
+.snowy {
+  background: linear-gradient(to bottom, #83a4d4, #b6fbff);
+}
